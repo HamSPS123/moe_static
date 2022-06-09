@@ -22,7 +22,7 @@
             <button type="button" class="btn btn-toggle">
                 <span class="fas fa-bars"></span>
             </button>
-            <div class="nav-center collape">
+            <div class="nav-center nav-toggle">
                 <ul class="menu">
                     <li class="menu-item">
                         <a href="#" class="menu-link active">
@@ -40,62 +40,34 @@
                     </li>
                 </ul>
             </div>
-            <div class="nav-right">
-                <div class="dropdown">
-                    <a class="dropdown-toggle menu-link" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        ເຂົ້າສູ່ລະບົບ
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="#">ແຜນແບ່ງປັນ</a></li>
-                        <li><a class="dropdown-item" href="#">ຈັດການເອກະສານ</a></li>
-                    </ul>
-                </div>
+            <div class="nav-right nav-toggle">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu-link" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ເຂົ້າສູ່ລະບົບ
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">ອັບໂຫຼດເອກະສານ</a></li>
+                            <li><a class="dropdown-item" href="#">ແຜນແບ່ງປັນ</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+    <section class="hero">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Hero Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptates fuga impedit, tempore magni necessitatibus, maiores aliquam sint libero modi ipsum, harum explicabo ullam aut autem quae recusandae minima cumque.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="" alt="">
             </div>
         </div>
-    </nav>
+    </section>
 
 
     <script src="assets/js/popper.min.js"></script>
