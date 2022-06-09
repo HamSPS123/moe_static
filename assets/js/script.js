@@ -6,3 +6,21 @@ btn.addEventListener('click',()=>{
     toggleCenter.classList.toggle("show");
     toggleRight.classList.toggle("show");
 })
+
+
+
+// fixed navbar
+var nav = document.querySelector('.nav');
+
+window.addEventListener('scroll', ()=>{
+    let page = window.pageYOffset
+    if(page > 0 ){
+        nav.classList.add("fixed");
+    }
+    else{
+        nav.classList.remove("fixed");
+    }
+})
+
+
+
